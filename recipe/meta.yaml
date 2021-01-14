@@ -1,5 +1,5 @@
 {% set name = "azure-storage-file-datalake" %}
-{% set version = "12.2.0" %}
+{% set version = "12.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 1ea22fd64b1fd27b7aa9cedf65f87ae30b691a4474630ae6dbdabc7ad50e9ba0
+  sha256: 281f010546a08f7c69161a91fc791e7c2fe45f470196b89dc8abae45826ed17a
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'This preview package for Python includes ADLS Gen2 specific API support made available in Storage SDK'
+  summary: This preview package for Python includes ADLS Gen2 specific API support made available in Storage SDK
   doc_url: https://aka.ms/azsdk-python-storage-filedatalake-ref
 
 extra:
