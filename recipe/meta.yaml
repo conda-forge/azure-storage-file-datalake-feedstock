@@ -1,5 +1,5 @@
 {% set name = "azure-storage-file-datalake" %}
-{% set version = "12.3.1" %}
+{% set version = "12.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 362e9b2f6eb76a2b628bbddddf163628e73ca00cc3ebf68c5aee838b04fd975f
+  sha256: 78bb078b2ac5e94db2257628141b82e8eaeb7d8b8eba8639eaf4f5ca2d86b661
 
 build:
   noarch: python
