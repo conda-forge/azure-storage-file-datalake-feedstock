@@ -21,7 +21,6 @@ requirements:
     - setuptools
   run:
     - python >=3.6
-    - aiohttp
     - azure-core >=1.10.0,<2.0.0
     - msrest >=0.6.21
     - azure-storage-blob >=12.8.0b1,<13.0.0
@@ -31,7 +30,6 @@ test:
     - azure
     - azure.storage
     - azure.storage.filedatalake
-    - azure.storage.filedatalake.aio
 
 about:
   home: https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/azure-storage-file-datalake
