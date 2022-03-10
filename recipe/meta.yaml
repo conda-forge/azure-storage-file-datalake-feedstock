@@ -35,7 +35,7 @@ about:
   home: https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/azure-storage-file-datalake
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: This preview package for Python includes ADLS Gen2 specific API support made available in Storage SDK
   doc_url: https://aka.ms/azsdk-python-storage-filedatalake-ref
 
