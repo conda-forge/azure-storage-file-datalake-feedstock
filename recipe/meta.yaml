@@ -16,14 +16,14 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - setuptools
   run:
-    - python >=3.6
-    - azure-core >=1.23.1,<2.0.0
-    - msrest >=0.6.21
-    - azure-storage-blob >=12.13.0,<13.0.0
+    - python >=3.7
+    - azure-core >=1.24.2,<2.0.0
+    - msrest >=0.7.1
+    - azure-storage-blob >=12.14.0,<13.0.0
 
 test:
   imports:
