@@ -23,7 +23,7 @@ requirements:
     - python >=3.7
     - azure-core >=1.24.2,<2.0.0
     - msrest >=0.7.1
-    - azure-storage-blob >=12.14.0,<13.0.0
+    - azure-storage-blob >=12.14.1,<13.0.0
 
 test:
   imports:
