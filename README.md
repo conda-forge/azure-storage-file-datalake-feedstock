@@ -1,11 +1,11 @@
-About azure-storage-file-datalake
-=================================
+About azure-storage-file-datalake-feedstock
+===========================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-storage-file-datalake-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage/azure-storage-file-datalake
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-storage-file-datalake-feedstock/blob/main/LICENSE.txt)
 
 Summary: This preview package for Python includes ADLS Gen2 specific API support made available in Storage SDK
 
