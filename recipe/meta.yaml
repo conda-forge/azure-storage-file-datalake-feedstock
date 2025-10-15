@@ -1,5 +1,5 @@
 {% set name = "azure-storage-file-datalake" %}
-{% set version = "12.21.0" %}
+{% set version = "12.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b49cd2156ea325f6f44a8f6674d73c5949e9ac48d6480faf901b2939855fcdd3
+  sha256: 9aed0d35f3327baeeb11b1950b140f97b356cfd368fc2cd105c32c820c49af77
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - typing_extensions >=4.6.0
     - python >={{ python_min }}
     - azure-core >=1.30.0
-    - azure-storage-blob >=12.26.0
+    - azure-storage-blob >=12.27.0
     - isodate >=0.6.1
     - typing-extensions >=4.6.0
 
